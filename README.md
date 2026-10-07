@@ -25,10 +25,12 @@ scripts/                analysis and submission-preparation scripts
 tests/                  validation tests
 ```
 
-Large site-, window-, and gene-level data tables are archived separately on
-Zenodo under `ZENODO_DOI_PENDING`. They are not duplicated in this GitHub
-repository. All underlying biological inputs were obtained from public
-resources, including GEO accessions GSE164265, GSE295720, and GSE161274.
+The sequence alignments, phylogenetic tree, promoter-sequence sets, and eight
+larger site-, window-, and gene-level data tables have been prepared for a
+companion Zenodo deposit. They are not duplicated in this GitHub repository.
+The Zenodo DOI will be added before publication. All underlying biological
+inputs were obtained from public resources, including GEO accessions
+GSE164265, GSE295720, and GSE161274.
 
 ## Environment and external tools
 
@@ -48,14 +50,18 @@ Zenodo tables described in `data/supplementary/README.md`.
 
 ## Data availability statement
 
-Machine-readable results are archived on Zenodo (DOI:
-`ZENODO_DOI_PENDING`). Analysis code and versioned configuration files are
-available from [GitHub](https://github.com/Ghostneuron/DNMT3A_Evolution). Source genomic and functional-genomic data
-remain available from the public repositories and accessions documented in the
-manuscript and project manifests.
+Analysis code, versioned configuration files, documentation, validation tests,
+manuscript figures, and Supplementary Data Tables S1-S20 are available from
+[GitHub](https://github.com/Ghostneuron/DNMT3A_Evolution). The sequence
+alignments, phylogenetic tree, promoter-sequence sets, and eight larger derived
+tables have been prepared for archival deposition in Zenodo. The DOI will be
+inserted before publication: `ZENODO_DOI_TO_BE_ADDED_BEFORE_PUBLICATION`.
+Source genomic and functional-genomic data remain available from the public
+repositories and accessions documented in the manuscript and project
+manifests.
 
 ## Citation and licensing
 
 Citation metadata are provided in `CITATION.cff`. No public-use license has
-been assigned in this staged folder; see `LICENSE_REVIEW_REQUIRED.md` before
-publishing the repository.
+yet been assigned; see `LICENSE_REVIEW_REQUIRED.md` before the version 1.0.0
+release.

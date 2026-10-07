@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the associated manuscript and the Zenodo data record. Add the final DOI before public release."
+message: "Please cite the associated manuscript and the companion Zenodo data record. Add the final DOI before the version 1.0.0 release."
 title: "Code and data tables for regional constraint and developmental isoform specialization in mammalian DNMT3A"
 type: software
 authors:
@@ -8,6 +8,8 @@ authors:
     affiliation: "Independent researcher, United States"
 version: 1.0.0
 date-released: 2026-10-06
+repository-code: "https://github.com/Ghostneuron/DNMT3A_Evolution"
+url: "https://github.com/Ghostneuron/DNMT3A_Evolution"
 keywords:
   - DNMT3A
   - non-CG methylation
