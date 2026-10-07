@@ -50,7 +50,7 @@ Zenodo tables described in `data/supplementary/README.md`.
 
 Machine-readable results are archived on Zenodo (DOI:
 `ZENODO_DOI_PENDING`). Analysis code and versioned configuration files are
-available from `GITHUB_URL_PENDING`. Source genomic and functional-genomic data
+available from [GitHub](https://github.com/Ghostneuron/DNMT3A_Evolution). Source genomic and functional-genomic data
 remain available from the public repositories and accessions documented in the
 manuscript and project manifests.
 
