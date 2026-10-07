@@ -1,0 +1,14 @@
+biopython==1.86
+matplotlib==3.10.6
+numpy==2.3.5
+openpyxl==3.1.5
+pyahocorasick==2.3.1
+pyBigWig==0.3.25
+pyliftover==0.4.1
+python-docx==1.2.0
+scipy==1.16.3
+pytest==8.4.2
+
+# Optional protein-language-model analyses require compatible installations of
+# PyTorch and fair-esm. Their versions were not available in the final packaging
+# environment and should be recorded before rerunning those analyses.

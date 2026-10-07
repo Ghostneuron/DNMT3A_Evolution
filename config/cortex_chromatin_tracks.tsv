@@ -1,0 +1,5 @@
+accession	label	filename	url	bytes	sha256
+GSM5005395	input	GSM5005395_WT_CTX_input.norm1x.bw	https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5005nnn/GSM5005395/suppl/GSM5005395_WT_CTX_input.norm1x.bw	202094357	3aa43660872ab08b53a310c39c90d86943c2dfc330f717a6e986f648852e676e
+GSM5005396	dnmt3a_flag	GSM5005396_Flag_CTX.bw	https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5005nnn/GSM5005396/suppl/GSM5005396_Flag_CTX.bw	239217422	5d7e4e7b5bdce71816ff944b46905d6b929ad7f5ef01e29191173a738f63c0c9
+GSM5005397	h3k4me3	GSM5005397_K4me3_CTX.bw	https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5005nnn/GSM5005397/suppl/GSM5005397_K4me3_CTX.bw	74176689	2fb7bfbc7908108ad8d0d3c165a682ef44b9847e5dff624ff3abacd27410f030
+GSM5005398	h3k27me3	GSM5005398_K27me3_CTX.bw	https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5005nnn/GSM5005398/suppl/GSM5005398_K27me3_CTX.bw	173712607	2264e55899e096312de76184873c68a1c4b33350342b895b3b80ce0f66f69001

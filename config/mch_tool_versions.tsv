@@ -1,0 +1,9 @@
+component	version	role
+Bismark Rust suite	3.1.0	bisulfite alignment, deduplication, methylation extraction
+Bowtie2	2.5.5	bisulfite-reference indexing and read alignment
+SAMtools	1.24	FASTA indexing and BAM diagnostics
+fastp	1.3.6	paired-end adapter detection and trimming
+Python	3.13	pipeline orchestration and context/genotype summaries
+UCSC mm9	b1afcb4bb9e344e30d0317c706f932cb051e5275e3a18f800034ff8ab9a3c849 (SHA-256)	mouse reference
+NEB EM-seq controls	95a9cf713c28f90f372b9ef368e95d277fdec4ecd27a9ea4bddfbae558162990 (SHA-256)	conversion and protection controls
+mm9 plus controls	c9297b0cf07c054acf3f6e69b1e5209e40b2c3ae6260a56e0cd9f2f1ac007371 (SHA-256)	composite alignment reference

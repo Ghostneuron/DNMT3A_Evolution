@@ -1,0 +1,29 @@
+# Operating-system metadata
+.DS_Store
+._*
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Raw and large derived data
+data/raw/
+results/
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.bigWig
+*.bw
+*.dcd
+*.xtc
+
+# Local logs and scratch products
+*.log
+tmp/
+work/

@@ -1,0 +1,8 @@
+domain	start_aa	end_aa	coordinate_system	note
+N_terminal_regulatory	1	277	human_DNMT3A1_912aa	Operational region; analyze low complexity and alignment confidence explicitly
+PWWP_extended	278	427	human_DNMT3A1_912aa	PWWP chromatin-reading region including structured extension
+PWWP_ADD_linker	428	475	human_DNMT3A1_912aa	Operational linker
+ADD	476	614	human_DNMT3A1_912aa	ATRX-DNMT3-DNMT3L-type zinc-finger regulatory domain
+ADD_MTase_linker	615	633	human_DNMT3A1_912aa	Operational linker
+DNA_methyltransferase	634	912	human_DNMT3A1_912aa	C-terminal catalytic region
+

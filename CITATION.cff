@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and the Zenodo data record. Add the final DOI before public release."
+title: "Code and data tables for regional constraint and developmental isoform specialization in mammalian DNMT3A"
+type: software
+authors:
+  - family-names: Lu
+    given-names: Jie
+    affiliation: "Independent researcher, United States"
+version: 1.0.0
+date-released: 2026-10-06
+keywords:
+  - DNMT3A
+  - non-CG methylation
+  - alternative promoter
+  - neuronal epigenome
+  - purifying selection
+  - transcript architecture

@@ -1,0 +1,9 @@
+region	start_aa	end_aa	coordinate_system	evidence_class	note
+upstream_disordered_tail	1	163	human_DNMT3A1_912aa	operational	Upstream DNMT3A1-specific disordered tail; contains T12, G34, and S97 but no mapped H2AK119ub/nucleosome-engagement interface
+nucleosome_H2AK119ub_engagement	164	219	human_DNMT3A1_912aa	experimentally_supported	Broad region implicated by deletion, nucleosome-binding, and H2AK119ub-recognition studies; use as a regional interval rather than an assertion that every residue contacts chromatin
+proximal_pre_PWWP	220	277	human_DNMT3A1_912aa	operational	Proximal N-terminal segment before the operational PWWP boundary
+PWWP_extended	278	427	human_DNMT3A1_912aa	domain	PWWP chromatin-reading region including structured extension
+PWWP_ADD_linker	428	475	human_DNMT3A1_912aa	operational	Operational linker
+ADD	476	614	human_DNMT3A1_912aa	domain	ATRX-DNMT3-DNMT3L-type zinc-finger regulatory domain
+ADD_MTase_linker	615	633	human_DNMT3A1_912aa	operational	Operational linker
+DNA_methyltransferase	634	912	human_DNMT3A1_912aa	domain	C-terminal catalytic region

@@ -1,0 +1,45 @@
+[project]
+gene = "DNMT3A"
+taxon_scope = "Human-ortholog DNMT3A panel; sarcopterygian vertebrates with mammalian and tetrapod stratified analyses"
+human_species = "Homo sapiens"
+human_protein_accession = "NP_072046.2"
+human_length_aa = 912
+minimum_length_fraction = 0.85
+maximum_length_fraction = 1.20
+minimum_clean_codon_occupancy = 0.70
+
+[paths]
+protein_fasta = "data/raw/ncbi_dataset/data/protein.faa"
+cds_fasta = "data/raw/ncbi_dataset/data/cds.fna"
+curated_dir = "results/01_curated"
+alignment_dir = "results/02_alignment"
+tree_dir = "results/03_tree"
+selection_dir = "results/04_selection"
+brain_integration_dir = "results/05_brain_integration"
+brain_traits = "data/traits/brain_phenotypes.tsv"
+isoform_evolution_dir = "results/06_isoform_evolution"
+
+[tools]
+macse = "macse"
+mafft = "mafft"
+iqtree = "iqtree2"
+hyphy = "hyphy"
+
+[alignment]
+macse_refine_iterations = 1
+macse_optimization = 1
+macse_local_realign_initial_fraction = 0.10
+
+[tree]
+sequence_type = "DNA"
+model = "GTR+F+G4"
+bootstrap_replicates = 1000
+alrt_replicates = 1000
+threads = "AUTO"
+mammal_constraint = "results/03_tree/constraints/NCBI_mammal_orders_constraint.nwk"
+
+[selection]
+run_fubar = false
+run_meme = true
+run_absrel = false
+meme_candidate_sites = [9, 30, 107]
